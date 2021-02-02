@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.05efab17.chunk.css",
+    "main.js": "/static/js/main.cce6b3bb.chunk.js",
+    "main.js.map": "/static/js/main.cce6b3bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
+    "static/js/2.4b93e52c.chunk.js": "/static/js/2.4b93e52c.chunk.js",
+    "static/js/2.4b93e52c.chunk.js.map": "/static/js/2.4b93e52c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.05efab17.chunk.css.map": "/static/css/main.05efab17.chunk.css.map",
+    "static/js/2.4b93e52c.chunk.js.LICENSE.txt": "/static/js/2.4b93e52c.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Kids-fashion.7066cf88.jpg",
+    "static/media/kids1.967cb3e8.png": "/static/media/kids1.967cb3e8.png",
+    "static/media/man1.05c2d0fa.png": "/static/media/man1.05c2d0fa.png",
+    "static/media/women1.9d4bf872.png": "/static/media/women1.9d4bf872.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c012fedc.js",
+    "static/js/2.4b93e52c.chunk.js",
+    "static/css/main.05efab17.chunk.css",
+    "static/js/main.cce6b3bb.chunk.js"
+  ]
+}
