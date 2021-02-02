@@ -16,7 +16,7 @@ function HomePage() {
                     <div class="carousel-inner">
                         <div class="carousel-item active w-100">
                             <div className="d-flex container-fluid mx-auto womanHeroBkg banner">
-                                <div className="col-lg-9 row mx-auto text-left myBorder">
+                                <div className="col-lg-9 row mx-auto text-left">
                                     <div className="col-lg-6 mt-5">
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <p className="bannerSubtxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta natus officia amet, quidem reprehenderit praesentium temporibus explicabo eveniet excepturi nemo.</p>
@@ -31,7 +31,7 @@ function HomePage() {
                         <div class="carousel-item w-100">
                             <div className="d-flex container-fluid mx-auto kidHeroBkg banner">
                                 {/* <img class="d-block col-4" src={heroWoman} alt="First slide"/> */}
-                                <div className="col-lg-9 mx-auto text-left myBorder">
+                                <div className="col-lg-9 mx-auto text-left">
                                     <div className="col-lg-6 mx-auto text-center">
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <div style={{height: '160px'}}></div>
@@ -45,7 +45,7 @@ function HomePage() {
                         </div>
                         <div class="carousel-item w-100">
                             <div className="d-flex container-fluid mx-auto menHeroBkg banner">
-                            <div className="col-lg-9 row mx-auto text-left myBorder">
+                            <div className="col-lg-9 row mx-auto text-left">
                                 <img className="personImg col-lg-6" src={heroMan} alt=""/>
                                     <div className="col-lg-6 mt-5">
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
