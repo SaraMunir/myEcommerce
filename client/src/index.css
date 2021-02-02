@@ -65,25 +65,36 @@ font-family: 'Nunito Sans', sans-serif;
   background-color: #F9C2BF;
   width: 100%;
   min-height: 100vh;
+  padding-bottom: 25px;
   /* background-image: url(./components/assets/heroImage.jpg);
   background-size: cover;
   background-repeat: no-repeat; */
 }
 .heroPrnt{
-  position: relative;
-  top: 12vh;
+  /* position: relative;
+  top: 12vh; */
 }
 .heroTxt{
-  position: absolute;
-  top: 120px;
+  /* position: relative; */
+  /* top: 120px;
   right: 0;
   left: 0;
   bottom: 0%;
-  z-index: 50;
+  z-index: 50; */
+  margin: 0 auto;
+  text-align: center;
+}
+.bannerHtxt{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+.bannerSubtxt{
+  font-size: 1rem;
 }
 .heroTxt h1{
   font-weight: 700;
-  font-size: 11rem;
+  font-size: 8rem;
   font-family: 'Montserrat', sans-serif;
 }
 .seasonalLook h3{
@@ -101,6 +112,9 @@ font-family: 'Nunito Sans', sans-serif;
 }
 .heroImg{
   height: 75vh;
+  object-fit: cover;
+}
+.personImg{
   object-fit: cover;
 }
 .navLink{
@@ -212,6 +226,27 @@ font-family: 'Nunito Sans', sans-serif;
   left: 0;
   right: 0%;
 }
+.womanHeroBkg{
+  background-color: #fe9f31;
+  /* background-image: url(./components/assets/Womens-fashion_2.jpg); */
+  background-size: cover;
+}
+.kidHeroBkg{
+  background-image: url(./components/assets/Kids-fashion.jpg);
+  background-size: cover;
+  
+}
+.menHeroBkg{
+  background-color: #32afc3;
+  background-size: cover;
+}
+.banner{
+  height: 80vh;
+}
+.myBorder{
+  border: 1px blue solid;
+}
+
 
 @media only screen and (max-width: 992px) {
   .hambuger{

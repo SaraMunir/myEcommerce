@@ -8,6 +8,7 @@ import KidsPage from './components/KidsPage';
 import BagsPage from './components/BagsPage'
 import AccessoriesPage from './components/AccessoriesPage'
 import ShoesPage from './components/ShoesPage'
+import WomensWear from './components/WomensWear/WomensWear';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <Navbar />
         <Route exact path={["/","/HomePage"]} component={HomePage}/>
         <Route exact path="/Women" component={WomenPage}/>
+        <Route path="/Womens" component={WomensWear}/>
         <Route exact path="/Men" component={ManPage}/>
         <Route exact path="/Kids" component={KidsPage}/>
         <Route exact path="/Bags" component={BagsPage}/>

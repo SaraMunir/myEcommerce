@@ -1,0 +1,9 @@
+[
+    {
+        "id": "01",
+        "category": "Tees",
+        "name": "Basic ribbed turtleneck tee",
+        "colors": ["red", "blue", "green"],
+        "description": "animal1"
+    }
+]

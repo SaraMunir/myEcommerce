@@ -1,35 +1,83 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
-
-import heroMan from './assets/man1.png'
-import heroWoman from './assets/women1.png'
-import heroKid from './assets/kids1.png'
-import latestImg from './assets/EZlPBAMWAAkyf2F.png'
+import { Link } from "react-router-dom";
+import heroWoman from "./assets/women1.png"
+import heroKid from "./assets/kids1.png"
+import heroMan from "./assets/man1.png"
 function HomePage() {
     return (
         <div>
-            {/* <div className="hero">
-                <div className="row container mx-auto heroPrnt">
-                    <div className="heroTxt">
-                        <h1>The Stitches</h1>
+            <div className="hero">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active w-100">
+                            <div className="d-flex container-fluid mx-auto womanHeroBkg banner">
+                                <div className="col-lg-9 row mx-auto text-left myBorder">
+                                    <div className="col-lg-6 mt-5">
+                                        <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
+                                        <p className="bannerSubtxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta natus officia amet, quidem reprehenderit praesentium temporibus explicabo eveniet excepturi nemo.</p>
+                                        <div className="text-center">
+                                            <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn">explore now</div>
+                                        </div>
+                                    </div>
+                                    <img className="personImg col-lg-6" src={heroWoman} alt=""/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100">
+                            <div className="d-flex container-fluid mx-auto kidHeroBkg banner">
+                                {/* <img class="d-block col-4" src={heroWoman} alt="First slide"/> */}
+                                <div className="col-lg-9 mx-auto text-left myBorder">
+                                    <div className="col-lg-6 mx-auto text-center">
+                                        <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
+                                        <div style={{height: '160px'}}></div>
+                                        <div className="text-center mt-5">
+                                            <div className="mySqrBtn mt-3 col-md-6 mx-auto spBtn">explore now</div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100">
+                            <div className="d-flex container-fluid mx-auto menHeroBkg banner">
+                            <div className="col-lg-9 row mx-auto text-left myBorder">
+                                <img className="personImg col-lg-6" src={heroMan} alt=""/>
+                                    <div className="col-lg-6 mt-5">
+                                        <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
+                                        <p className="bannerSubtxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta natus officia amet, quidem reprehenderit praesentium temporibus explicabo eveniet excepturi nemo.</p>
+                                        <div className="text-center">
+                                            <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn">explore now</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
-                    <div className="d-flex col-11 mx-auto">
-                        <div className="col-3 mx-auto heroCnt">
-                            <img src={heroWoman} className="heroImg mx-auto" alt=""/>
-                        </div>
-                        <div className="col-6 mx-auto heroCntMid">
-                            <img src={heroKid} className="heroImg1 mx-auto" alt=""/>
-                        </div>
-                        <div className="col-3 mx-auto heroCnt">
-                            <img src={heroMan} className="heroImg mx-auto" alt=""/>
-                        </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    </div>
+                <div className="row container mx-auto heroPrnt">
+                    <div className="heroTxt mt-3">
+                        <h1>The Stitches</h1>
                     </div>
                 </div>
                 <div className="text-center">
-                    <div className="mySqrBtn mt-5 col-2 mx-auto spBtn">explore now</div>
+                    <div className="mySqrBtn mt-3 col-md-2 mx-auto spBtn">explore now</div>
                 </div>
-            </div> */}
-            {/* <div className="row container-fluid m-0 p-0" style={{height:'60vh', backgroundColor:'white'}}>
+            </div>
+            <div className="row container-fluid m-0 p-0" style={{height:'60vh', backgroundColor:'white'}}>
                 <div className="col-lg-8">
                     <h3 className="reviewH3">e-commerce fashion site</h3>
                     <div className="mySqrBtn mt-5 col-4 mx-auto spBtn">New Arrivals</div>
@@ -37,7 +85,7 @@ function HomePage() {
                 <div className="col-lg-4">
                     <img className="newArrivalImg" src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80" alt=""/>
                 </div>
-            </div> */}
+            </div>
             <div className="container-fluid m-0 p-4" style={{minHeight:'100vh', backgroundColor:'#ebecec'}}>
                 <div className="row mx-auto">
                     <div className="col-lg-4">
@@ -85,7 +133,6 @@ function HomePage() {
                         <div className="hovrCntr h40  mb-3">
                             <div  className="position-relative">
                                 <img  className="mx-auto h40 mb-3" src="https://images.unsplash.com/photo-1593765762957-d8d876a1beeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt=""/>
-                                
                                 <h4 className="mt-5 contentCapt">#Shoes</h4>
                             </div>
                             <div className="hvrContent greenBcgnd">
