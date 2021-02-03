@@ -3,6 +3,7 @@ import { Link, useLocation, useParams } from "react-router-dom";
 
 function ProductDetail() {
     const { productId } = useParams();
+    const { category } = useParams();
     const [ productDetail, setProductDetail ]= useState({});
     const [ productDetailImages, setProductDetailImages ]= useState([]);
     const [ colorArr, setColorArr ]= useState([]);
@@ -11,7 +12,11 @@ function ProductDetail() {
     let imageArr = []
     let starsArr = []
     async function loadProductDetail(){
-        const apiTees = await fetch('/api/Tees/Women').then( result=>result.json() );
+        console.log('category: ', category)
+        // const apiTees = await fetch('/api/Tees/Women').then( result=>result.json() );
+        const apiTees = await fetch(`/api/Women/${category}`).then( result=>result.json() );
+        
+        console.log('apiTees: ', apiTees)
         apiTees.forEach(product=>{
             if(product.id === productId){
                 console.log('this is product:',product)
@@ -30,7 +35,7 @@ function ProductDetail() {
                 console.log('starsArr: ', starsArr)
                 setProductDetailImages(imageArr)
                 setProductDetail(product)
-                setBigPic(product.detailImg)
+                setBigPic(product.mainImg)
                 setStars(starsArr)
             }
         })
@@ -61,7 +66,7 @@ function ProductDetail() {
             <div className="col-md-6 text-left">
                 <h3 className="productName">{productDetail.name}</h3>
                 <div>
-                <p className="priceTag">{productDetail.price}</p>
+                <p className="priceTag">CA${productDetail.price}</p>
                     {
                         stars.map(star=>
                             <i class="far fa-star"></i>

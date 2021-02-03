@@ -12,7 +12,8 @@ function WomensWear() {
         <div>
             <Router>
                 <Route exact path="/Womens/Tees" component={TeesPage}/>
-                <Route exact path="/Womens/Tees/:productId" component={ProductDetail}/>
+                {/* /api/Women/${category} */}
+                <Route exact path="/Womens/:category/:productId" component={ProductDetail}/>
                 <Route exact path="/Womens/Tops" component={TopsPage}/>
                 <Route exact path="/Womens/Dresses" component={DressesPage}/>
                 <Route exact path="/Womens/Skirts" component={SkirtsPage}/>

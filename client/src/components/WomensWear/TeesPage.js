@@ -5,11 +5,9 @@ function TeesPage() {
     const [ tees, setTees ]= useState([]);
     
     async function loadTees(){
-        const apiTees = await fetch('/api/Tees/Women').then( result=>result.json() );
+        const apiTees = await fetch('/api/Women/Tees').then( result=>result.json() );
         setTees( apiTees );
-        console.log('apiTees: ', apiTees)
     }
-
     useEffect( function(){
         loadTees();
     }, [] );
@@ -17,7 +15,9 @@ function TeesPage() {
 
     return (
         <div className="container-fluid">
-            <div>sort by</div>
+            <div className="text-right mx-auto col-lg-10">
+                <h5>Sort By <i class="fas fa-chevron-down"></i></h5>
+            </div>
             <div className="row mx-auto col-lg-10">
                 {
                     tees.map(image=>
@@ -25,7 +25,7 @@ function TeesPage() {
                             <div className="">
                                 <img className="cardtImg" src={image.mainImg} alt={image.name}/>
                                 <p className="cardTitle">{image.name}</p>
-                                <p>{image.price}</p>
+                                <p>CA${image.price}</p>
                                 <div className="d-flex justify-content-center">
                                     {image.colours.map(colour=>
                                         <img className="colorSwatches" src={colour.thumbnail} alt=""/>

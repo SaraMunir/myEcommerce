@@ -2,8 +2,8 @@ import React from 'react'
 
 function BottomsPage() {
     return (
-        <div>
-            bottom
+        <div className="mt-5">
+            <h1>Bottoms Coming Soon</h1>
         </div>
     )
 }

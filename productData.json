@@ -7,7 +7,7 @@
         "mainImg": "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
         "detailImg": "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
         "rating": 5,
-        "price": "CA$16.99",
+        "price": 16.99,
         "colours": [
             {   "id": "1",
                 "name": "Black White Stripe",
@@ -35,7 +35,7 @@
         "mainImg": "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
         "detailImg": "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
         "rating": 4,
-        "price": "CA$16.99",
+        "price": 16.99,
         "colours": [
             {
                 "name": "Yellow",
@@ -65,7 +65,7 @@
         "mainImg": "https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png",
         "detailImg": "https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png",
         "rating": 4,
-        "price": "CA$16.99",
+        "price": 16.99,
         "colours": [
             {
                 "name": "Pink Floral",
@@ -89,7 +89,7 @@
         "mainImg": "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
         "detailImg": "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
         "rating": 3,
-        "price": "CA$12.99",
+        "price": 12.99,
         "colours": [
             {
                 "name": "Pink Green Tie-Dye",
@@ -110,7 +110,7 @@
         "mainImg": "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
         "detailImg": "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
         "rating": 3,
-        "price": "CA$15.99",
+        "price": 15.99,
         "colours": [
             {
                 "name": "Warm Hickory",
@@ -137,7 +137,7 @@
         "mainImg": "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
         "detailImg": "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
         "rating": 5,
-        "price": "CA$17.99",
+        "price": 17.99,
         "colours": [
             {
                 "name": "Coral Tie-Dye",
@@ -147,6 +147,153 @@
                     "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
                     "https://i.ibb.co/9wcyDNR/Wo-Tee-6-B-2.png",
                     "https://i.ibb.co/4dL8mQ5/Wo-Tee-6-B-3.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD01",
+        "name": "Waist-Defined Braided-Strap Printed Maxi Dress for Women",
+        "mainImg": "https://i.ibb.co/56p6Chd/Wo-Dr-1-R-1.png",
+        "rating": 5,
+        "price": 35.99,
+        "colours": [
+            {
+                "name": "Red Ditsy",
+                "thumbnail": "https://i.ibb.co/p2FWb7m/Wo-Dr-1-R-Thumb.png",
+                "detlThmb": "https://i.ibb.co/p2FWb7m/Wo-Dr-1-R-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/56p6Chd/Wo-Dr-1-R-1.png",
+                    "https://i.ibb.co/3kbGTRj/Wo-Dr-1-R-2.png",
+                    "https://i.ibb.co/ZXkMbpW/Wo-Dr-1-R-3.png"
+                ]
+            },
+            {
+                "name": "Navy Floral",
+                "thumbnail": "https://i.ibb.co/xqx1bBm/Wo-Dr-1-Bl-Thumb.png",
+                "detlThmb": "https://i.ibb.co/xqx1bBm/Wo-Dr-1-Bl-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/52SbLkJ/Wo-Dr-1-Bl-1.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD02",
+        "name": "Printed Sleeveless Tiered Swing Dress for Women",
+        "mainImg": "https://i.ibb.co/7k8K4Mm/Wo-Dr-2-O-1.png",
+        "rating": 5,
+        "price": 30.99,
+        "colours": [
+            {
+                "name": "Coral Floral Print",
+                "thumbnail": "https://i.ibb.co/B41TGLP/Wo-Dr-2-O-Thumb.png",
+                "detlThmb": "https://i.ibb.co/B41TGLP/Wo-Dr-2-O-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/7k8K4Mm/Wo-Dr-2-O-1.png",
+                    "https://i.ibb.co/sJ0pLfQ/Wo-Dr-2-O-2.png",
+                    "https://i.ibb.co/kD4QKTq/Wo-Dr-2-O-3.png"
+                ]
+            },
+            {
+                "name": "Black Geometric Print",
+                "thumbnail": "https://i.ibb.co/4fZXV4y/Wo-Dr-2-Bl-Thumb.png",
+                "detlThmb": "https://i.ibb.co/4fZXV4y/Wo-Dr-2-Bl-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/BfxZMys/Wo-Dr-2-Bl-1.png"
+                ]
+            },
+            {
+                "name": "Yellow Floral",
+                "thumbnail": "https://i.ibb.co/zGzBnY8/Wo-Dr-2-Y-Thumb.png",
+                "detlThmb": "https://i.ibb.co/zGzBnY8/Wo-Dr-2-Y-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/gz3STFp/Wo-Dr-2-Y-1.png"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD03",
+        "name": "Ponte-Knit Ruched Sheath Dress for Women",
+        "mainImg": "https://i.ibb.co/n04qn4q/Wo-Dr-3-P-1.png",
+        "rating": 5,
+        "price": 25.99,
+        "colours": [
+            {
+                "name": "Red Dot",
+                "thumbnail": "https://i.ibb.co/02pDnB0/Wo-Dr-3-P-Thumb.png",
+                "detlThmb": "https://i.ibb.co/02pDnB0/Wo-Dr-3-P-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/n04qn4q/Wo-Dr-3-P-1.png"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD04",
+        "name": "Smocked Fit & Flare Striped Cami Midi Dress for Women",
+        "mainImg": "https://i.ibb.co/mCSpKTM/Wo-Dr-4-Blu-1.png",
+        "rating": 5,
+        "price": 30.99,
+        "colours": [
+            {
+                "name": "Red Dot",
+                "thumbnail": "https://i.ibb.co/zZ3qjq0/Wo-Dr-4-Blu-Thumb.png",
+                "detlThmb": "https://i.ibb.co/zZ3qjq0/Wo-Dr-4-Blu-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/mCSpKTM/Wo-Dr-4-Blu-1.png"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD05",
+        "name": "Smocked Textured Clip-Dot Fit & Flare Cami Midi Dress for Women",
+        "mainImg": "https://i.ibb.co/frHz0N2/WoDr-5-1.png",
+        "rating": 5,
+        "price": 45.99,
+        "colours": [
+            {
+                "name": "Red Dot",
+                "thumbnail": "https://i.ibb.co/0Q1HsxZ/Wo-Dr-5-Thumb.png",
+                "detlThmb": "https://i.ibb.co/0Q1HsxZ/Wo-Dr-5-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/frHz0N2/WoDr-5-1.png",
+                    "https://i.ibb.co/C08XLXj/WoDr-5-2.png",
+                    "https://i.ibb.co/tqvpMdM/WoDr-5-3.png",
+                    "https://i.ibb.co/YcPvC8W/WoDr-5-4.png"
+                ]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Dress",
+        "id": "WD06",
+        "name": "Waist-Defined Textured Dobby Dress for Women",
+        "mainImg": "https://i.ibb.co/fQfCMgj/WoDr-6-1.png",
+        "rating": 5,
+        "price": 45.99,
+        "colours": [
+            {
+                "name": "Red Dot",
+                "thumbnail": "https://i.ibb.co/xsJRBvh/Wo-Dr-6-Thumb.png",
+                "detlThmb": "https://i.ibb.co/xsJRBvh/Wo-Dr-6-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/fQfCMgj/WoDr-6-1.png",
+                    "https://i.ibb.co/khxGCHN/WoDr-6-2.png",
+                    "https://i.ibb.co/qpGRV6f/WoDr-6-3.png",
+                    "https://i.ibb.co/5jGMFNY/WoDr-6-4.png"
+                ]
             }
         ]
     }

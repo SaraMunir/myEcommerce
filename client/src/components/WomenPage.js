@@ -7,23 +7,75 @@ function WomenPage() {
             <div className="container-fluid m-0 p-4" style={{minHeight:'100vh', backgroundColor:'#ebecec'}}>
                 <div className="row mx-auto">
                     <div className="col-lg-4">
-                        <div className="hovrCntr h40  mb-3">
-                            <div className="position-relative">
-                                <img  className="mx-auto h40 mb-3" src="https://i.pinimg.com/originals/73/31/b5/7331b560f12c8b271903972802e01e0d.jpg" alt=""/>
-                                <h4 className="mt-5 contentCapt">#Tees</h4>
+                        <Link to="/Womens/Tees">
+                            <div className="hovrCntr h100 mb-3">
+                                <div className="position-relative">
+                                    <img  className="mx-auto h100 mb-3" src="https://i.pinimg.com/originals/73/31/b5/7331b560f12c8b271903972802e01e0d.jpg" alt=""/>
+                                    <h4 className="mt-5 contentCapt">#Tees</h4>
 
+                                </div>
+                                <div className="hvrContent greenBcgnd">
+                                    <h4 className="mt-5">#Tees</h4>
+                                </div>
                             </div>
-                            <div className="hvrContent greenBcgnd">
-                            <Link to="/Womens/Tees"><h4 className="mt-5">#Tees</h4></Link>
+                        </Link>
+                    </div>
+                    <div className="col-lg-4">
+                        <Link to="/Womens/Dresses">
+                            <div className="hovrCntr h100 mb-3">
+                                <div className="position-relative">
+                                    <img  className="mx-auto h100" src="https://imagescdn.simons.ca/images/6650/70815/4/A1_1.jpg?__=13" alt=""/>
+                                    <h4 className="mt-5 contentCapt">#Dresses</h4>
+                                </div>
+                                <div className="hvrContent pnkBcgnd">
+                                        <h4 className="mt-5">#Dresses</h4>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
+                    </div>
+                    <div className="col-lg-4">
+                        <Link to="/Womens/Jackets&Blazers">
+                            <div className="hovrCntr h100  mb-3">
+                                <div  className="position-relative">
+                                    <img  className="mx-auto h100 mb-3" src="https://imagescdn.simons.ca/images/9391/202229/1/A1_1.jpg?__=6" alt=""/>
+                                    <h4 className="mt-5 contentCapt">#Jackets & Blazers</h4>
+                                </div>
+                                <div className="hvrContent greenBcgnd">
+                                    <h4 className="mt-5">#Jackets & Blazers</h4>
+                                </div>
+                            </div>
+                        </Link>
+                    </div>
+                </div>
+                <div>
+                    <hr style={{marginTop:'10vh'}}/>
+                    
+                    <h1>below design to be the final design</h1>
+                </div>
+                <div className="row mx-auto">
+                    <div className="col-lg-4">
+                        <Link to="/Womens/Tees">
+                            <div className="hovrCntr h40  mb-3">
+                                <div className="position-relative">
+                                    <img  className="mx-auto h40 mb-3" src="https://i.pinimg.com/originals/73/31/b5/7331b560f12c8b271903972802e01e0d.jpg" alt=""/>
+                                    <h4 className="mt-5 contentCapt">#Tees</h4>
+
+                                </div>
+                                <div className="hvrContent greenBcgnd">
+                                
+                                    <h4 className="mt-5">#Tees</h4>
+                                </div>
+                            </div>
+                        </Link>
                         <div className="hovrCntr h60  mb-3">
                             <div className="position-relative">
                                 <img  className="mx-auto h60" src="https://imagescdn.simons.ca/images/6650/70815/4/A1_1.jpg?__=13" alt=""/>
                                 <h4 className="mt-5 contentCapt">#Dresses</h4>
                             </div>
                             <div className="hvrContent pnkBcgnd">
-                                <Link to="/Womens/Dresses"><h4 className="mt-5">#Dresses</h4></Link>
+                                <Link to="/Womens/Dresses">
+                                    <h4 className="mt-5">#Dresses</h4>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -57,7 +109,6 @@ function WomenPage() {
                             <Link to="/Womens/Jackets&Blazers"><h4 className="mt-5">#Jackets & Blazers</h4></Link>
                             </div>
                         </div>
-                        {/* <img  className="mx-auto h40 mb-3" src="https://images.unsplash.com/photo-1593765762957-d8d876a1beeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80" alt=""/> */}
                         <div className="hovrCntr h60  mb-3">
                             <div  className="position-relative">
                                 <img  className="mx-auto h60" src="https://imagescdn.simons.ca/images/7023/202528/55/A1_1.jpg?__=13" alt=""/>

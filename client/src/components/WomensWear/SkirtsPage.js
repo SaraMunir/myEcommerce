@@ -2,8 +2,8 @@ import React from 'react'
 
 function SkirtsPage() {
     return (
-        <div>
-            skirts
+        <div className="mt-5">
+            <h1>Skirts Coming Soon</h1>
         </div>
     )
 }

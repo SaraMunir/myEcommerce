@@ -169,6 +169,11 @@ font-family: 'Nunito Sans', sans-serif;
   font-size: 1.6rem;
 
 }
+
+.h100{
+  height: 85vh;
+  object-fit: cover;
+}
 .h40{
   height: 33vh;
   object-fit: cover;
