@@ -4,19 +4,19 @@
         "category": "Tees",
         "id": "WT01",
         "name": "Loose Vintage Textured-Stripe Tee for Women",
-        "mainImg": "../women/WoTee_1_1.png",
-        "detailImg": "/women/WoTee_1_1.png",
+        "mainImg": "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
+        "detailImg": "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
         "rating": 5,
         "price": "CA$16.99",
         "colours": [
             {   "id": "1",
                 "name": "Black White Stripe",
-                "thumbnail": "../women/WoTee_1_Thumb.png",
-                "detlThmb": "/women/WoTee_1_Thumb.png",
+                "thumbnail": "https://i.ibb.co/wc0yyz0/Wo-Tee-1-Thumb.png",
+                "detlThmb": "https://i.ibb.co/wc0yyz0/Wo-Tee-1-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_1_1.png",
-                    "/women/WoTee_1_2.png",
-                    "/women/WoTee_1_3.png"]
+                    "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
+                    "https://i.ibb.co/0rQMG1r/Wo-Tee-1-2.png",
+                    "https://i.ibb.co/FX2K0zy/Wo-Tee-1-3.png"]
                 }
             ],
         "product_detail": [
@@ -32,28 +32,28 @@
         "category": "Tees",
         "id": "WT02",
         "name": "Luxe V-Neck Slub-Knit Tee for Women",
-        "mainImg": "../women/WoTee_2_Y_1.png",
-        "detailImg": "/women/WoTee_2_Y_1.png",
+        "mainImg": "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
+        "detailImg": "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
         "rating": 4,
         "price": "CA$16.99",
         "colours": [
             {
                 "name": "Yellow",
-                "thumbnail": "../women/WoTee_2_Y_Thumb.png",
-                "detlThmb": "/women/WoTee_2_Y_Thumb.png",
+                "thumbnail": "https://i.ibb.co/m6q0c6p/Wo-Tee-2-Y-Thumb.png",
+                "detlThmb": "https://i.ibb.co/m6q0c6p/Wo-Tee-2-Y-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_2_Y_1.png",
-                    "/women/WoTee_2_Y_2.png",
-                    "/women/WoTee_2_Y_3.png"
+                    "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
+                    "https://i.ibb.co/Bw8wSJs/Wo-Tee-2-Y-2.png",
+                    "https://i.ibb.co/WnT8Yqf/Wo-Tee-2-Y-3.png"
                 ]
             },
             {
                 "name": "Red",
-                "thumbnail": "../women/WoTee_2_R_Thumb.png",
-                "detlThmb": "/women/WoTee_2_R_Thumb.png",
+                "thumbnail": "https://i.ibb.co/FVgdcF7/Wo-Tee-2-R-Thumb.png",
+                "detlThmb": "https://i.ibb.co/FVgdcF7/Wo-Tee-2-R-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_2_R_1.png",
-                    "/women/WoTee_2_R_2.png"]
+                    "https://i.ibb.co/nfFzNcL/Wo-Tee-2-R-1.png",
+                    "https://i.ibb.co/TwZLC1N/Wo-Tee-2-R-2.png"]
             }
         ]
     },
@@ -62,22 +62,22 @@
         "category": "Tees",
         "id": "WT03",
         "name": "EveryWear Slub-Knit Scoop-Neck Tee for Women",
-        "mainImg": "../women/WoTee_3_P_1.png",
-        "detailImg": "/women/WoTee_3_P_1.png",
+        "mainImg": "https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png",
+        "detailImg": "https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png",
         "rating": 4,
         "price": "CA$16.99",
         "colours": [
             {
                 "name": "Pink Floral",
-                "thumbnail": "../women/WoTee_3_P_Thumb.png",
-                "detlThmb": "/women/WoTee_3_P_Thumb.png",
-                "imgSrc": ["/women/WoTee_3_P_1.png"]
+                "thumbnail": "https://i.ibb.co/k8FbMyN/Wo-Tee-3-P-Thumb.png",
+                "detlThmb": "https://i.ibb.co/k8FbMyN/Wo-Tee-3-P-Thumb.png",
+                "imgSrc": ["https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png"]
             },
             {
                 "name": "White Floral",
-                "thumbnail": "../women/WoTee_3_W_Thumb.png",
-                "detlThmb": "/women/WoTee_3_W_Thumb.png",
-                "imgSrc": ["/women/WoTee_3_W_1.png"]
+                "thumbnail": "https://i.ibb.co/TLWFHm8/Wo-Tee-3-W-Thumb.png",
+                "detlThmb": "https://i.ibb.co/TLWFHm8/Wo-Tee-3-W-Thumb.png",
+                "imgSrc": ["https://i.ibb.co/2ZkPWdK/Wo-Tee-3-W-1.png"]
             }
         ]
     },
@@ -86,19 +86,19 @@
         "category": "Tees",
         "id": "WT04",
         "name": "Loose Vintage Crew-Neck Tee for Women",
-        "mainImg": "../women/WoTee_4_1.png",
-        "detailImg": "/women/WoTee_4_1.png",
+        "mainImg": "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
+        "detailImg": "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
         "rating": 3,
         "price": "CA$12.99",
         "colours": [
             {
                 "name": "Pink Green Tie-Dye",
-                "thumbnail": "../women/WoTee_4_Thumb.png",
-                "detlThmb": "/women/WoTee_4_Thumb.png",
+                "thumbnail": "https://i.ibb.co/7GNRRJH/Wo-Tee-4-Thumb.png",
+                "detlThmb": "https://i.ibb.co/7GNRRJH/Wo-Tee-4-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_4_1.png",
-                    "/women/WoTee_4_2.png",
-                    "/women/WoTee_4_3.png"]
+                    "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
+                    "https://i.ibb.co/9ww0816/Wo-Tee-4-2.png",
+                    "https://i.ibb.co/X3NLXCY/Wo-Tee-4-3.png"]
             }
         ]
     },
@@ -107,25 +107,25 @@
         "category": "Tees",
         "id": "WT05",
         "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
-        "mainImg": "../women/WoTee_5_P_1.png",
-        "detailImg": "/women/WoTee_5_P_1.png",
+        "mainImg": "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
+        "detailImg": "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
         "rating": 3,
         "price": "CA$15.99",
         "colours": [
             {
                 "name": "Warm Hickory",
-                "thumbnail": "../women/WoTee_5_P_Thumb.png",
-                "detlThmb": "/women/WoTee_5_P_Thumb.png",
+                "thumbnail": "https://i.ibb.co/gFv81sv/Wo-Tee-5-P-Thumb.png",
+                "detlThmb": "https://i.ibb.co/gFv81sv/Wo-Tee-5-P-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_5_P_1.png",
-                    "/women/WoTee_5_P_2.png"]
+                    "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
+                    "https://i.ibb.co/xFjvHgx/Wo-Tee-5-P-2.png"]
             },
             {
                 "name": "Gestalt Green",
-                "thumbnail": "../women/WoTee_5_G_Thumb.png",
-                "detlThmb": "/women/WoTee_5_G_Thumb.png",
+                "thumbnail": "https://i.ibb.co/d4fJwvh/Wo-Tee-5-G-Thumb.png",
+                "detlThmb": "https://i.ibb.co/d4fJwvh/Wo-Tee-5-G-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_5_G_1.png"]
+                    "https://i.ibb.co/h7W5xGt/Wo-Tee-5-G-1.png"]
             }
         ]
     },
@@ -134,19 +134,19 @@
         "category": "Tees",
         "id": "WT06",
         "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
-        "mainImg": "../women/WoTee_6_B_1.png",
-        "detailImg": "/women/WoTee_6_B_1.png",
+        "mainImg": "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
+        "detailImg": "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
         "rating": 5,
         "price": "CA$17.99",
         "colours": [
             {
                 "name": "Coral Tie-Dye",
-                "thumbnail": "../women/WoTee_6_B_Thumb.png",
-                "detlThmb": "/women/WoTee_6_B_Thumb.png",
+                "thumbnail": "https://i.ibb.co/R3J3hhq/Wo-Tee-6-B-Thumb.png",
+                "detlThmb": "https://i.ibb.co/R3J3hhq/Wo-Tee-6-B-Thumb.png",
                 "imgSrc": [
-                    "/women/WoTee_6_B_1.png",
-                    "/women/WoTee_6_B_2.png",
-                    "/women/WoTee_6_B_3.png"]
+                    "https://i.ibb.co/M71LxV1/Wo-Tee-6-B-1.png",
+                    "https://i.ibb.co/9wcyDNR/Wo-Tee-6-B-2.png",
+                    "https://i.ibb.co/4dL8mQ5/Wo-Tee-6-B-3.png"]
             }
         ]
     }
