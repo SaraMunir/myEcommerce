@@ -1,9 +1,146 @@
 [
     {
-        "id": "01",
+        "type": "Women",
         "category": "Tees",
-        "name": "Basic ribbed turtleneck tee",
-        "colors": ["red", "blue", "green"],
-        "description": "animal1"
+        "id": "WT01",
+        "name": "Loose Vintage Textured-Stripe Tee for Women",
+        "mainImg": "../women/WoTee_1_1.png",
+        "detailImg": "/women/WoTee_1_1.png",
+        "rating": 5,
+        "price": "CA$16.99",
+        "colours": [
+            {   "id": "1",
+                "name": "Black White Stripe",
+                "thumbnail": "../women/WoTee_1_Thumb.png",
+                "detlThmb": "/women/WoTee_1_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_1_1.png",
+                    "/women/WoTee_1_2.png",
+                    "/women/WoTee_1_3.png"]
+                }
+            ]
+    },
+    {
+        "type": "Women",
+        "category": "Tees",
+        "id": "WT02",
+        "name": "Luxe V-Neck Slub-Knit Tee for Women",
+        "mainImg": "../women/WoTee_2_Y_1.png",
+        "detailImg": "/women/WoTee_2_Y_1.png",
+        "rating": 4,
+        "price": "CA$16.99",
+        "colours": [
+            {
+                "name": "Yellow",
+                "thumbnail": "../women/WoTee_2_Y_Thumb.png",
+                "detlThmb": "/women/WoTee_2_Y_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_2_Y_1.png",
+                    "/women/WoTee_2_Y_2.png",
+                    "/women/WoTee_2_Y_3.png"
+                ]
+            },
+            {
+                "name": "Red",
+                "thumbnail": "../women/WoTee_2_R_Thumb.png",
+                "detlThmb": "/women/WoTee_2_R_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_2_R_1.png",
+                    "/women/WoTee_2_R_2.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Tees",
+        "id": "WT03",
+        "name": "EveryWear Slub-Knit Scoop-Neck Tee for Women",
+        "mainImg": "../women/WoTee_3_P_1.png",
+        "detailImg": "/women/WoTee_3_P_1.png",
+        "rating": 4,
+        "price": "CA$16.99",
+        "colours": [
+            {
+                "name": "Pink Floral",
+                "thumbnail": "../women/WoTee_3_P_Thumb.png",
+                "detlThmb": "/women/WoTee_3_P_Thumb.png",
+                "imgSrc": ["/women/WoTee_3_P_1.png"]
+            },
+            {
+                "name": "White Floral",
+                "thumbnail": "../women/WoTee_3_W_Thumb.png",
+                "detlThmb": "/women/WoTee_3_W_Thumb.png",
+                "imgSrc": ["/women/WoTee_3_W_1.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Tees",
+        "id": "WT04",
+        "name": "Loose Vintage Crew-Neck Tee for Women",
+        "mainImg": "../women/WoTee_4_1.png",
+        "detailImg": "/women/WoTee_4_1.png",
+        "rating": 3,
+        "price": "CA$12.99",
+        "colours": [
+            {
+                "name": "Pink Green Tie-Dye",
+                "thumbnail": "../women/WoTee_4_Thumb.png",
+                "detlThmb": "/women/WoTee_4_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_4_1.png",
+                    "/women/WoTee_4_2.png",
+                    "/women/WoTee_4_3.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Tees",
+        "id": "WT05",
+        "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
+        "mainImg": "../women/WoTee_5_P_1.png",
+        "detailImg": "/women/WoTee_5_P_1.png",
+        "rating": 3,
+        "price": "CA$15.99",
+        "colours": [
+            {
+                "name": "Warm Hickory",
+                "thumbnail": "../women/WoTee_5_P_Thumb.png",
+                "detlThmb": "/women/WoTee_5_P_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_5_P_1.png",
+                    "/women/WoTee_5_P_2.png"]
+            },
+            {
+                "name": "Gestalt Green",
+                "thumbnail": "../women/WoTee_5_G_Thumb.png",
+                "detlThmb": "/women/WoTee_5_G_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_5_G_1.png"]
+            }
+        ]
+    },
+    {
+        "type": "Women",
+        "category": "Tees",
+        "id": "WT06",
+        "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
+        "mainImg": "../women/WoTee_6_B_1.png",
+        "detailImg": "/women/WoTee_6_B_1.png",
+        "rating": 5,
+        "price": "CA$17.99",
+        "colours": [
+            {
+                "name": "Coral Tie-Dye",
+                "thumbnail": "../women/WoTee_6_B_Thumb.png",
+                "detlThmb": "/women/WoTee_6_B_Thumb.png",
+                "imgSrc": [
+                    "/women/WoTee_6_B_1.png",
+                    "/women/WoTee_6_B_2.png",
+                    "/women/WoTee_6_B_3.png"]
+            }
+        ]
     }
 ]

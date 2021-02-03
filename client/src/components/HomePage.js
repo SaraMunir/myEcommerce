@@ -21,7 +21,11 @@ function HomePage() {
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <p className="bannerSubtxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta natus officia amet, quidem reprehenderit praesentium temporibus explicabo eveniet excepturi nemo.</p>
                                         <div className="text-center">
-                                            <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn">explore now</div>
+                                            <Link to="/Women">
+                                                <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn">
+                                                        explore Her
+                                                </div>
+                                            </Link>
                                         </div>
                                     </div>
                                     <img className="personImg col-lg-6" src={heroWoman} alt=""/>
@@ -36,7 +40,11 @@ function HomePage() {
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <div style={{height: '160px'}}></div>
                                         <div className="text-center mt-5">
-                                            <div className="mySqrBtn mt-3 col-md-6 mx-auto spBtn">explore now</div>
+                                            <Link to="/Kids">
+                                                <div className="mySqrBtn mt-3 col-md-6 mx-auto spBtn">
+                                                    explore Kids
+                                                </div>
+                                            </Link>
                                         </div>
                                     </div>
                                     
@@ -50,9 +58,11 @@ function HomePage() {
                                     <div className="col-lg-6 mt-5">
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <p className="bannerSubtxt">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta natus officia amet, quidem reprehenderit praesentium temporibus explicabo eveniet excepturi nemo.</p>
-                                        <div className="text-center">
-                                            <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn">explore now</div>
-                                        </div>
+                                        <Link to="/Men">
+                                            <div className="mySqrBtn mt-3 col-md-6 mr-auto spBtn text-center">
+                                                explore Him
+                                            </div>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -81,10 +91,8 @@ function HomePage() {
                 <div className="col-lg-8">
                     <h3 className="reviewH3">e-commerce fashion site</h3>
                     <div className="mySqrBtn mt-5 col-4 mx-auto spBtn">New Arrivals</div>
-                </div>
-                <div className="col-lg-4">
-                    <img className="newArrivalImg" src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80" alt=""/>
-                </div>
+                </div> 
+                <img className="newArrivalImg col-lg-4 p-0" src="https://images.unsplash.com/photo-1554568218-0f1715e72254?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80" alt=""/>
             </div>
             <div className="container-fluid m-0 p-4" style={{minHeight:'100vh', backgroundColor:'#ebecec'}}>
                 <div className="row mx-auto">

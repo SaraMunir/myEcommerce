@@ -16,15 +16,19 @@ img{
 }
 .newArrivalImg{
   height: 60vh;
-  object-fit: contain;
+  object-fit: cover;
+}
+.mySqrBtn a {
+  color: white;
 }
 a {
   color: #383838;
 }
 a:hover{
   color: #383838;
+
   /* border: 1px solid white; */
-  /* text-decoration: none; */
+  text-decoration: none;
 }
 /* 
 font-family: 'Montserrat', sans-serif; 
@@ -246,7 +250,81 @@ font-family: 'Nunito Sans', sans-serif;
 .myBorder{
   border: 1px blue solid;
 }
-
+.myCard{
+  /* background-color: #e0d0ce; */
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+}
+.myCardHvr{
+  background-color: #88e0b060;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  visibility: hidden;
+}
+.myCard:hover .myCardHvr{
+  visibility: visible;
+}
+.cardtImg{
+  height: 350px;
+  object-fit: cover;
+}
+.cardTitle{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin: 0;
+}
+.colorSwatches{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.imgThmb{
+  margin: 2px;
+  border-radius: 2px;
+  border: 3px solid #4dd48a;
+  cursor: pointer;
+}
+.priceTag{
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
+.productName{
+  font-size: 2.3rem;
+  font-weight: lighter;
+}
+.fa-star{
+  font-size: 1.5rem;
+}
+.sizeTxt{
+  width: 50px;
+  height: 50px;
+  font-size: 1.5rem;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+}
+.sizeTxtActive{
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 9px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #4dd48a;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 992px) {
   .hambuger{
