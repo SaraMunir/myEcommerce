@@ -25,6 +25,7 @@ app.get('/api/Tees/Women', async( req,res) => {
       if(women.type==="Women"){
         womensArr.push(women)
       }
+      
     })
     res.send( womensArr );
   });
