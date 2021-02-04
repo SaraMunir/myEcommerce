@@ -32,8 +32,6 @@ app.use( express.json() );
 //Tees list
 app.get('/api/Women/:category', async( req,res) => {
   const category = req.params.category;
-  console.log("category: ", category)
-
     const womens = JSON.parse( fs.readFileSync( "./productData.json" ) );
     let womensArr=[]
     womens.map(women=>{

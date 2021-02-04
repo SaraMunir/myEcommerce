@@ -3,9 +3,10 @@ import { Link, useLocation } from "react-router-dom";
 
 function TeesPage() {
     const [ tees, setTees ]= useState([]);
-    
     async function loadTees(){
-        const apiTees = await fetch('/api/Women/Tees').then( result=>result.json() );
+        console.log('where is it?')
+        const apiTees = await fetch(`/api/Women/Tees`).then( result=>result.json() );
+        console.log('apiTees:', apiTees)
         setTees( apiTees );
     }
     useEffect( function(){
@@ -16,7 +17,7 @@ function TeesPage() {
     return (
         <div className="container-fluid">
             <div className="text-right mx-auto col-lg-10">
-                <h5>Sort By <i class="fas fa-chevron-down"></i></h5>
+                <h4>Sort By <i class="fas fa-chevron-down"></i></h4>
             </div>
             <div className="row mx-auto col-lg-10">
                 {

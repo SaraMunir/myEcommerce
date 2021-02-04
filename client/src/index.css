@@ -295,6 +295,16 @@ font-family: 'Nunito Sans', sans-serif;
   border: 3px solid #4dd48a;
   cursor: pointer;
 }
+.colorSwatches2{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 2px;
+  border: 3px solid #4dd48a;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
 .priceTag{
   font-size: 1.8rem;
   font-weight: bolder;
@@ -307,10 +317,11 @@ font-family: 'Nunito Sans', sans-serif;
   font-size: 1.5rem;
 }
 .sizeTxt{
-  width: 50px;
-  height: 50px;
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
   font-size: 1.5rem;
-  padding: 10px;
+  padding: 9px 0;
   text-transform: uppercase;
   cursor: pointer;
   text-align: center;
@@ -328,14 +339,31 @@ font-family: 'Nunito Sans', sans-serif;
   color: white;
   text-align: center;
   margin: 5px;
-  text-align: center;
 }
+.sizeTxt:hover {
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 9px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #4dd48a;
+  color: white;
+  text-align: center;
+  margin: 5px;
+}
+.warningCard{
+  background-color: #40b373;
+  color: white;
 
+}
 @media only screen and (max-width: 992px) {
   .hambuger{
     display: block;
     padding-top: 10px;
     font-size: 1.8rem;
+    margin: 0;
   }
   .hideHamMenu{
     display: none;
