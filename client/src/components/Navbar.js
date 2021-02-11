@@ -1,14 +1,30 @@
-import React,{useState} from 'react'
+import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Logo from "./assets/needle.png"
 function Navbar() {
     const location = useLocation();
     const [ showMenu, setShowMenu ]= useState(false);
+    const [ shoppingCartItem, setShoppingCartItem ]= useState(0);
 
+    function loadShoppingCartNum(){
+        if(localStorage.shoppingCart===undefined){
+            setShoppingCartItem(0)
+        }else {
+            let myCart = JSON.parse(localStorage.shoppingCart);
+            let cartItmQty = 0
+            myCart.map(item=>{
+                cartItmQty = cartItmQty + Number(item.quantity)
+            })
+            setShoppingCartItem(cartItmQty)
+        }
+    }
+    useEffect( function(){
+        loadShoppingCartNum();
+    }, [] );
     return (
         <div className="position-relative"> 
             <div style={{height:'8vh'}}></div>
-            <nav className="navbar navbar-expand-lg navbar-light p-0">
+            <nav className="navbar navbar-expand-lg navbar-light p-0 pt-2">
                 <div className="col-3 d-flex justify-content-between">
                     <i class="fas fa-bars hambuger" onClick={()=>setShowMenu(true)}></i>
                     <Link to="/HomePage" className={location.pathname === "/HomePage" ? "nav-link active" : "nav-link"}>
@@ -37,8 +53,11 @@ function Navbar() {
                     </Link>
                 </div>
                 <div className="col-3">
-                    <div className="d-flex justify-content-end">
-                        <i class="fas fa-2x fa-shopping-cart"></i>
+                    <div className="d-flex justify-content-end" style={{position:'relative'}}>
+                        <Link to="/ShoppingCart" className={location.pathname === "/ShoppingCart" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
+                            <i class="fas fa-shopping-cart" style={{fontSize: '1.5rem'}}></i>
+                        </Link>
+                        { shoppingCartItem === 0 ?'': <p className="shoppingNumber">{shoppingCartItem}</p>}
                     </div>
                 </div>
             </nav>

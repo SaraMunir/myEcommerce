@@ -152,6 +152,24 @@ font-family: 'Nunito Sans', sans-serif;
   cursor: pointer;
   font-weight: bolder;
 }
+.mySqrBtnSpecial{
+  background-color: #a8e6cf;
+  color: #383838;
+  font-family: 'Montserrat', sans-serif; 
+  text-transform: uppercase;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.mySqrBtnSpecial:hover{
+  background-color: #5fe7b5;
+  color: #383838;
+  font-family: 'Montserrat', sans-serif; 
+  text-transform: uppercase;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
 .mySqrBtn:hover{
   background-color: #a8e6cf;
   /* background-color: #ebecec; */
@@ -167,9 +185,7 @@ font-family: 'Nunito Sans', sans-serif;
   color: #616161;
   padding-top: 20vh;
   font-size: 1.6rem;
-
 }
-
 .h100{
   height: 85vh;
   object-fit: cover;
@@ -300,9 +316,27 @@ font-family: 'Nunito Sans', sans-serif;
   height: 50px;
   margin: 2px;
   border-radius: 2px;
+  border: 3px solid #4dd48a00;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.colorSwatchesActive{
+  width: 50px;
+  height: 50px;
+  margin: 2px;
+  border-radius: 2px;
   border: 3px solid #4dd48a;
   cursor: pointer;
   border-radius: 50%;
+}
+.cursor{
+  cursor: pointer;
+}
+.deleteBtn{
+  color: #969696;
+}
+.deleteBtn:hover{
+  color: #303030;
 }
 
 .priceTag{
@@ -326,6 +360,20 @@ font-family: 'Nunito Sans', sans-serif;
   cursor: pointer;
   text-align: center;
   margin: 5px;
+}
+.sizeTxtNot{
+  width: 54px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  padding: 9px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+  /* text-decoration: overline; */
+  background: #b1b1b1;
+  color: white;
 }
 .sizeTxtActive{
   width: 54px;
@@ -357,6 +405,21 @@ font-family: 'Nunito Sans', sans-serif;
   background-color: #40b373;
   color: white;
 
+}
+.estimatedPrice{
+  border: 1px solid #adadad;
+  min-height: 30vh;
+  padding: 20px;
+}
+.shoppingNumber{
+  background: #40b373;
+  border-radius: 50%;
+  height: 22px;
+  width: 22px;
+  font-size: .9rem;
+  position: absolute;
+  top: -5px;
+  right: 5px;
 }
 @media only screen and (max-width: 992px) {
   .hambuger{
