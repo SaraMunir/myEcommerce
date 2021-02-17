@@ -2,6 +2,8 @@ const mongoose = require('mongoose');
 const bcrypt = require ( 'bcrypt' );
 
 // const { v4: uuidv4 } = require('uuid');
+// dont do this part
+
 // mongoose.connect(`mongodb://localhost:27017/myEcommerceWeb`, {useNewUrlParser: true, useFindAndModify: false});
 
 const password= '1qaz2wsx'

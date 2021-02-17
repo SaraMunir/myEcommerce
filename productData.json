@@ -1049,5 +1049,489 @@
                 ]
             }
         ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Tees",
+        "id": "MT03",
+        "name": "Soft-Washed Chest-Stripe Crew-Neck Tee for Men",
+        "mainImg": "https://i.ibb.co/XsKMVcD/MT-3-WO-1.png",
+        "detailImg": "https://i.ibb.co/XsKMVcD/MT-3-WO-1.png",
+        "rating": 5,
+        "price": 12.00,
+        "colours": [
+            {
+                "name": "White/Olive Green",
+                "id": "MT03-W/OG",
+                "mainImg": "https://i.ibb.co/XsKMVcD/MT-3-WO-1.png",
+                "thumbnail": "https://i.ibb.co/1Xw8MxZ/MT-3-WO-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/XsKMVcD/MT-3-WO-1.png",
+                    "https://i.ibb.co/rvCNfdZ/MT-3-WO-2.png",
+                    "https://i.ibb.co/KVB7bhd/MT-3-WO-3.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Blue Streak",
+                "id": "MT03-BS",
+                "mainImg": "https://i.ibb.co/frBYwmq/MT-3-Blue-Streak-1.png",
+                "thumbnail": "https://i.ibb.co/dcgVQ5H/MT-3-Blue-Streak-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/frBYwmq/MT-3-Blue-Streak-1.png",
+                    "https://i.ibb.co/mJpqgV6/MT-3-Blue-Streak-2.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Shirt",
+        "id": "MS01",
+        "name": "Regular-Fit Cotton Twill Utility Shirt for Men",
+        "mainImg": "https://i.ibb.co/yBqtx7L/MS-1-Raisin-The-Bar-1.png",
+        "detailImg": "https://i.ibb.co/yBqtx7L/MS-1-Raisin-The-Bar-1.png",
+        "rating": 5,
+        "price": 44.99,
+        "colours": [
+            {
+                "name": "Raisin the Bar",
+                "id": "MS01-RTB",
+                "mainImg": "https://i.ibb.co/yBqtx7L/MS-1-Raisin-The-Bar-1.png",
+                "thumbnail": "https://i.ibb.co/NYS6kdp/MS-1-Raisin-The-Bar-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/yBqtx7L/MS-1-Raisin-The-Bar-1.png",
+                    "https://i.ibb.co/Gt42RzW/MS-1-Raisin-The-Bar-2.png",
+                    "https://i.ibb.co/PtHsX21/MS-1-Raisin-The-Bar-3.png",
+                    "https://i.ibb.co/NZh9zdn/MS-1-Raisin-The-Bar-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Buckthorner",
+                "id": "MS01-B",
+                "mainImg": "https://i.ibb.co/R34m0Fr/MS-1-Buckthorner-1.png",
+                "thumbnail": "https://i.ibb.co/XSGbkPQ/MS-1-Buckthorner-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/R34m0Fr/MS-1-Buckthorner-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Camo",
+                "id": "MS01-C",
+                "mainImg": "https://i.ibb.co/T48p1j7/MS-1-Camo-1.png",
+                "thumbnail": "https://i.ibb.co/0Fm4wLV/MS-1-Camo-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/T48p1j7/MS-1-Camo-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Money Maker",
+                "id": "MS01-MM",
+                "mainImg": "https://i.ibb.co/pKqyHF9/MS-1-Money-Maker-1.png",
+                "thumbnail": "https://i.ibb.co/Q8BPH1R/MS-1-Money-Maker-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/pKqyHF9/MS-1-Money-Maker-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Shirt",
+        "id": "MS02",
+        "name": "Built-In Flex Printed Everyday Short-Sleeve Shirt for Men",
+        "mainImg": "https://i.ibb.co/wJJTtQ1/MS-2-Jungle-Leopard-1.png",
+        "detailImg": "https://i.ibb.co/wJJTtQ1/MS-2-Jungle-Leopard-1.png",
+        "rating": 5,
+        "price": 29.99,
+        "colours": [
+            {
+                "name": "Jungle Leopard",
+                "id": "MS02-JL",
+                "mainImg": "https://i.ibb.co/wJJTtQ1/MS-2-Jungle-Leopard-1.png",
+                "thumbnail": "https://i.ibb.co/L1ymdH2/MS-2-Jungle-Leopard-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/wJJTtQ1/MS-2-Jungle-Leopard-1.png",
+                    "https://i.ibb.co/N1Wpcx6/MS-2-Jungle-Leopard-2.png",
+                    "https://i.ibb.co/jGPscJg/MS-2-Jungle-Leopard-3.png",
+                    "https://i.ibb.co/q5Zj7hd/MS-2-Jungle-Leopard-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Berry Red Pindot",
+                "id": "MS02-BRP",
+                "mainImg": "https://i.ibb.co/w6w62Fh/MS-2-Berry-Red-Pindot-1.png",
+                "thumbnail": "https://i.ibb.co/T12xLyx/MS-2-Berry-Red-Pindot-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/w6w62Fh/MS-2-Berry-Red-Pindot-1.png",
+                    "https://i.ibb.co/x5hQyYy/MS-2-Berry-Red-Pindot-2.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 60
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Navy Blue Geo Print",
+                "id": "MS02-NBGP",
+                "mainImg": "https://i.ibb.co/9yc5P3N/MS-2-Navy-Blue-Geo-Print-1.png",
+                "thumbnail": "https://i.ibb.co/nchYqTR/MS-2-Navy-Blue-Geo-Print-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/9yc5P3N/MS-2-Navy-Blue-Geo-Print-1.png",
+                    "https://i.ibb.co/H7DnKrX/MS-2-Navy-Blue-Geo-Print-2.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Jacket",
+        "id": "MJ01",
+        "name": "Lightweight Water-Resistant Quilted Liner Jacket for Men",
+        "mainImg": "https://i.ibb.co/mGfw94H/MJ-1-Olive-Green-1.png",
+        "detailImg": "https://i.ibb.co/mGfw94H/MJ-1-Olive-Green-1.png",
+        "rating": 5,
+        "price": 38.00,
+        "colours": [
+            {
+                "name": "Olive Green",
+                "id": "MJ01-OG",
+                "mainImg": "https://i.ibb.co/mGfw94H/MJ-1-Olive-Green-1.png",
+                "thumbnail": "https://i.ibb.co/k1zFMF1/MJ-1-Olive-Green-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/mGfw94H/MJ-1-Olive-Green-1.png",
+                    "https://i.ibb.co/SNrTNH8/MJ-1-Olive-Green-2.png",
+                    "https://i.ibb.co/58WmFDz/MJ-1-Olive-Green-3.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Classic Black",
+                "id": "MJ01-CB",
+                "mainImg": "https://i.ibb.co/6N35pTK/MJ-1-Black-1.png",
+                "thumbnail": "https://i.ibb.co/C9GsSwc/MJ-1-Black-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/6N35pTK/MJ-1-Black-1.png",
+                    "https://i.ibb.co/GFt0MbH/MJ-1-Black-2.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 60
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Jacket",
+        "id": "MJ02",
+        "name": "Water-Resistant Hooded Nylon Rain Jacket for Men",
+        "mainImg": "https://i.ibb.co/5jTM7tX/MJ-2-Black-Jack-1.png",
+        "detailImg": "https://i.ibb.co/5jTM7tX/MJ-2-Black-Jack-1.png",
+        "rating": 5,
+        "price": 38.00,
+        "colours": [
+            {
+                "name": "Black Jack",
+                "id": "MJ02-BJ",
+                "mainImg": "https://i.ibb.co/5jTM7tX/MJ-2-Black-Jack-1.png",
+                "thumbnail": "https://i.ibb.co/CMK3W8p/MJ-2-Black-Jack-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/5jTM7tX/MJ-2-Black-Jack-1.png",
+                    "https://i.ibb.co/kXcb6Q9/MJ-2-Black-Jack-2.png",
+                    "https://i.ibb.co/p4w7vCP/MJ-2-Black-Jack-3.png",
+                    "https://i.ibb.co/XWJ0FpN/MJ-2-Black-Jack-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Meadow Gold",
+                "id": "MJ02-MG",
+                "mainImg": "https://i.ibb.co/nzRb2C2/MJ-2-Meadow-Gold-1.png",
+                "thumbnail": "https://i.ibb.co/DLJmWj1/MJ-2-Meadow-Gold-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/nzRb2C2/MJ-2-Meadow-Gold-1.png",
+                    "https://i.ibb.co/8g2PbvX/MJ-2-Meadow-Gold-2.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 60
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+            
+        ]
     }
 ]

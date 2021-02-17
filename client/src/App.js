@@ -15,6 +15,7 @@ import ShoesPage from './components/ShoesPage'
 import WomensWear from './components/WomensWear/WomensWear';
 import ConfirmationPage from './components/ConfirmationPage';
 import MensWear from './components/MensWear/MensWear';
+import KidsWear from './components/KidsWear/KidsWear';
 function App() {
   
   return (
@@ -26,13 +27,14 @@ function App() {
         <Route exact path="/ShoppingCart" component={ShoppingCartPage}/>
         <Route exact path="/Checkout" component={CheckoutPage}/>
         <Route exact path="/Confirmation/:ordernumber" component={ConfirmationPage}/>
-        <Route path="/Womens" component={WomensWear}/>
-        <Route path="/Mens" component={MensWear}/>
         <Route exact path="/Men" component={ManPage}/>
-        <Route exact path="/Kids" component={KidsPage}/>
+        <Route exact path="/Kid" component={KidsPage}/>
         <Route exact path="/Bags" component={BagsPage}/>
         <Route exact path="/Shoes" component={ShoesPage}/>
         <Route exact path="/Accessories" component={AccessoriesPage}/>
+        <Route path="/Womens" component={WomensWear}/>
+        <Route path="/Mens" component={MensWear}/>
+        <Route path="/Kids" component={KidsWear}/>
       </Router>
     </div>
   );

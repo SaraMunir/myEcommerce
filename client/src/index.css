@@ -497,6 +497,19 @@ font-family: 'Nunito Sans', sans-serif;
 .bold{
   font-weight: bold;
 }
+.Thumbssect{
+  height: 85vh;
+  overflow-y: scroll;
+}
+.Thumbssect::-webkit-scrollbar {
+  width: 5px;
+}
+.Thumbssect::-webkit-scrollbar-track {
+  background: #c8d4d0; 
+}
+.Thumbssect::-webkit-scrollbar-thumb {
+  background: #25b37c; 
+} 
 @media only screen and (max-width: 992px) {
   .hambuger{
     display: block;

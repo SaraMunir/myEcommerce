@@ -48,7 +48,7 @@ function Navbar() {
                     <Link to="/Men" className={location.pathname === "/Men" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
                         Men
                     </Link>
-                    <Link to="/Kids" className={location.pathname === "/Kids" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
+                    <Link to="/Kid" className={location.pathname === "/Kid" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
                         Kids
                     </Link>
                 </div>
