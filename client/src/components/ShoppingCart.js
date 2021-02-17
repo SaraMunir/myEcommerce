@@ -6,7 +6,7 @@ function ShoppingCart() {
     const [totalPrice, setTotalPrice]=useState(0)
     function loadShoppingCart(){
         if(localStorage.shoppingCart===undefined){
-            setShoppingCart('')
+            setShoppingCart([])
         }else {
             let myCart = JSON.parse(localStorage.shoppingCart)
             setShoppingCart(myCart)
@@ -91,12 +91,18 @@ function ShoppingCart() {
                             <p>Merchandise subtotal</p>
                             <p>CA$ {totalPrice}</p>
                         </div>
-                        <Link to="/Checkout">
+                        {shoppingCart.length<1 ? 
+                            <div className="mySqrBtnSpecialInactive text-center">
+                                Checkout &nbsp; <i class="fas fa-chevron-right"></i>
+                            </div>
+                            : 
+                            <Link to="/Checkout">
                             <div className="mySqrBtnSpecial text-center">
                                 Checkout &nbsp; <i class="fas fa-chevron-right"></i>
                             </div>
-
-                        </Link>
+                            </Link>
+                        }
+                        
                     </div>
 
                 </div>

@@ -28,7 +28,7 @@ function ProductDetail() {
     const [productSizes, setProductSizes]= useState([]);
     let starsArr = []
     async function loadProductDetail(){
-        const apiTees = await fetch(`/api/Women/${category}`).then( result=>result.json() );
+        const apiTees = await fetch(`/api/Men/${category}`).then( result=>result.json() );
         apiTees.forEach(product=>{
             if(product.id === productId){
                 setColorArr(product.colours);

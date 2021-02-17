@@ -23,7 +23,7 @@ function Navbar() {
     }, [] );
     return (
         <div className="position-relative"> 
-            <div style={{height:'8vh'}}></div>
+            <div style={{height:'10vh'}}></div>
             <nav className="navbar navbar-expand-lg navbar-light p-0 pt-2">
                 <div className="col-3 d-flex justify-content-between">
                     <i class="fas fa-bars hambuger" onClick={()=>setShowMenu(true)}></i>

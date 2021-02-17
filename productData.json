@@ -1,6 +1,6 @@
 [
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT01",
         "name": "Loose Vintage Textured-Stripe Tee for Women",
@@ -14,7 +14,6 @@
                 "id": "WT01-BWS",
                 "mainImg": "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
                 "thumbnail": "https://i.ibb.co/wc0yyz0/Wo-Tee-1-Thumb.png",
-                "detlThmb": "https://i.ibb.co/wc0yyz0/Wo-Tee-1-Thumb.png",
                 "imgSrc": [
                     "https://i.ibb.co/BKc6qxT/Wo-Tee-1-1.png",
                     "https://i.ibb.co/0rQMG1r/Wo-Tee-1-2.png",
@@ -52,7 +51,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT02",
         "name": "Luxe V-Neck Slub-Knit Tee for Women",
@@ -66,7 +65,6 @@
                 "id": "WT02-Y",
                 "mainImg": "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
                 "thumbnail": "https://i.ibb.co/m6q0c6p/Wo-Tee-2-Y-Thumb.png",
-                "detlThmb": "https://i.ibb.co/m6q0c6p/Wo-Tee-2-Y-Thumb.png",
                 "imgSrc": [
                     "https://i.ibb.co/KwwLyyC/Wo-Tee-2-Y-1.png",
                     "https://i.ibb.co/Bw8wSJs/Wo-Tee-2-Y-2.png",
@@ -100,7 +98,6 @@
                 "id": "WT02-R",
                 "mainImg": "https://i.ibb.co/nfFzNcL/Wo-Tee-2-R-1.png",
                 "thumbnail": "https://i.ibb.co/FVgdcF7/Wo-Tee-2-R-Thumb.png",
-                "detlThmb": "https://i.ibb.co/FVgdcF7/Wo-Tee-2-R-Thumb.png",
                 "imgSrc": [
                     "https://i.ibb.co/nfFzNcL/Wo-Tee-2-R-1.png",
                     "https://i.ibb.co/TwZLC1N/Wo-Tee-2-R-2.png"],
@@ -130,7 +127,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT03",
         "name": "EveryWear Slub-Knit Scoop-Neck Tee for Women",
@@ -144,7 +141,6 @@
                 "id": "WT03-PF",
                 "mainImg": "https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png",
                 "thumbnail": "https://i.ibb.co/k8FbMyN/Wo-Tee-3-P-Thumb.png",
-                "detlThmb": "https://i.ibb.co/k8FbMyN/Wo-Tee-3-P-Thumb.png",
                 "imgSrc": ["https://i.ibb.co/g30mSjb/Wo-Tee-3-P-1.png"],
                 "sizes": [
                     {
@@ -174,7 +170,6 @@
                 "id": "WT03-WF",
                 "mainImg": "https://i.ibb.co/2ZkPWdK/Wo-Tee-3-W-1.png",
                 "thumbnail": "https://i.ibb.co/TLWFHm8/Wo-Tee-3-W-Thumb.png",
-                "detlThmb": "https://i.ibb.co/TLWFHm8/Wo-Tee-3-W-Thumb.png",
                 "imgSrc": ["https://i.ibb.co/2ZkPWdK/Wo-Tee-3-W-1.png"],
                 "sizes": [
                     {
@@ -202,7 +197,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT04",
         "name": "Loose Vintage Crew-Neck Tee for Women",
@@ -216,7 +211,6 @@
                 "id": "WT04-PGTD",
                 "mainImg": "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
                 "thumbnail": "https://i.ibb.co/7GNRRJH/Wo-Tee-4-Thumb.png",
-                "detlThmb": "https://i.ibb.co/7GNRRJH/Wo-Tee-4-Thumb.png",
                 "imgSrc": [
                     "https://i.ibb.co/K7SJrB5/Wo-Tee-4-1.png",
                     "https://i.ibb.co/9ww0816/Wo-Tee-4-2.png",
@@ -247,7 +241,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT05",
         "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
@@ -261,7 +255,6 @@
                 "id": "WT05-WH",
                 "mainImg": "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
                 "thumbnail": "https://i.ibb.co/gFv81sv/Wo-Tee-5-P-Thumb.png",
-                "detlThmb": "https://i.ibb.co/gFv81sv/Wo-Tee-5-P-Thumb.png",
                 "imgSrc": [
                     "https://i.ibb.co/vDxhsfn/Wo-Tee-5-P-1.png",
                     "https://i.ibb.co/xFjvHgx/Wo-Tee-5-P-2.png"],
@@ -322,7 +315,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Tees",
         "id": "WT06",
         "name": "EveryWear Slub-Knit Crew-Neck Tee for Women",
@@ -367,7 +360,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD01",
         "name": "Waist-Defined Braided-Strap Printed Maxi Dress for Women",
@@ -443,7 +436,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD02",
         "name": "Printed Sleeveless Tiered Swing Dress for Women",
@@ -552,7 +545,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD03",
         "name": "Ponte-Knit Ruched Sheath Dress for Women",
@@ -595,7 +588,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD04",
         "name": "Smocked Fit & Flare Striped Cami Midi Dress for Women",
@@ -638,7 +631,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD05",
         "name": "Smocked Textured Clip-Dot Fit & Flare Cami Midi Dress for Women",
@@ -684,7 +677,7 @@
         ]
     },
     {
-        "type": "Women",
+        "typeOf": "Women",
         "category": "Dress",
         "id": "WD06",
         "name": "Waist-Defined Textured Dobby Dress for Women",
@@ -724,6 +717,334 @@
                     {
                         "size": "XL", 
                         "qty": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Women",
+        "category": "Jacket",
+        "id": "WJ01",
+        "name": "Faux-Fur Lined Hooded Parka Coat for Women",
+        "mainImg": "https://i.ibb.co/WzcZSFG/Wo-Ja-1-Bl-1.png",
+        "rating": 5,
+        "price": 99.99,
+        "colours": [
+            {
+                "name": "Black",
+                "id": "WJ01-B",
+                "mainImg": "https://i.ibb.co/WzcZSFG/Wo-Ja-1-Bl-1.png",
+                "thumbnail": "https://i.ibb.co/TcxFtf4/Wo-Ja-1-Bl-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/WzcZSFG/Wo-Ja-1-Bl-1.png",
+                    "https://i.ibb.co/b6Q12Qc/Wo-Ja-1-Bl-2.png",
+                    "https://i.ibb.co/rs0TSGq/Wo-Ja-1-Bl-3.png",
+                    "https://i.ibb.co/ZxrbXnz/Wo-Ja-1-Bl-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty":10
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Women",
+        "category": "Jacket",
+        "id": "WJ02",
+        "name": "Water-Resistant Trench Coat for Women",
+        "mainImg": "https://i.ibb.co/6FDmWF8/Wo-Ja-2-W-1.png",
+        "rating": 5,
+        "price": 50.97,
+        "colours": [
+            {
+                "name": "Clay Mate",
+                "id": "WJ02-CM",
+                "mainImg": "https://i.ibb.co/6FDmWF8/Wo-Ja-2-W-1.png",
+                "thumbnail": "https://i.ibb.co/1qG2YJG/Wo-Ja-2-W-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/6FDmWF8/Wo-Ja-2-W-1.png",
+                    "https://i.ibb.co/By6SJMz/Wo-Ja-2-W-2.png",
+                    "https://i.ibb.co/LQTQcGh/Wo-Ja-2-W-3.png",
+                    "https://i.ibb.co/FYrwf4R/Wo-Ja-2-W-4.png",
+                    "https://i.ibb.co/6Zk5vF2/Wo-Ja-2-W-5.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty":10
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Women",
+        "category": "Jacket",
+        "id": "WJ03",
+        "name": "Oversized Soft-Brushed Leopard-Print Coat for Women",
+        "mainImg": "https://i.ibb.co/NYfh7KC/Wo-Ja-3-Gr-1.png",
+        "rating": 5,
+        "price": 74.97,
+        "colours": [
+            {
+                "name": "Gray Leopard Print",
+                "id": "WJ03-GLP",
+                "mainImg": "https://i.ibb.co/NYfh7KC/Wo-Ja-3-Gr-1.png",
+                "thumbnail": "https://i.ibb.co/ccWvYC6/Wo-Ja-3-Gr-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/NYfh7KC/Wo-Ja-3-Gr-1.png",
+                    "https://i.ibb.co/wcPd5gL/Wo-Ja-3-Gr-2.png",
+                    "https://i.ibb.co/K9sMBH0/Wo-Ja-3-Gr-3.png",
+                    "https://i.ibb.co/VTX4NMJ/Wo-Ja-3-Gr-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty":10
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 50
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Tees",
+        "id": "MT01",
+        "name": "Oversized Soft-Washed Pocket Tee for Men",
+        "mainImg": "https://i.ibb.co/RhQ1ZVH/Ma-Tee-1-a-Gr-1.png",
+        "detailImg": "https://i.ibb.co/RhQ1ZVH/Ma-Tee-1-a-Gr-1.png",
+        "rating": 5,
+        "price": 16.99,
+        "colours": [
+            {
+                "name": "Gray",
+                "id": "MT01-G",
+                "mainImg": "https://i.ibb.co/RhQ1ZVH/Ma-Tee-1-a-Gr-1.png",
+                "thumbnail": "https://i.ibb.co/LP11VnN/Ma-Tee-1-a-Gr-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/RhQ1ZVH/Ma-Tee-1-a-Gr-1.png",
+                    "https://i.ibb.co/HGC9zyg/Ma-Tee-1-a-Gr-2.png",
+                    "https://i.ibb.co/dG7MRzw/Ma-Tee-1-a-Gr-3.png",
+                    "https://i.ibb.co/KrFHGkH/Ma-Tee-1-a-Gr-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "In the Navy",
+                "id": "MT01-ITN",
+                "mainImg": "https://i.ibb.co/ynWnVJn/Ma-Tee-1-N-1.png",
+                "thumbnail": "https://i.ibb.co/PrvzgCL/Ma-Tee-1-N-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/ynWnVJn/Ma-Tee-1-N-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "Ammonite",
+                "id": "MT01-Am",
+                "mainImg": "https://i.ibb.co/zHGWz4q/Ma-Tee-1-Amm-1.png",
+                "thumbnail": "https://i.ibb.co/Hp6MV5r/Ma-Tee-1-Amm-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/zHGWz4q/Ma-Tee-1-Amm-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            },
+            {
+                "name": "The Red Planet",
+                "id": "MT01-TRP",
+                "mainImg": "https://i.ibb.co/FJbXQYk/Ma-Tee-1-Pn-1.png",
+                "thumbnail": "https://i.ibb.co/2Y5K8CS/Ma-Tee-1-Pn-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/FJbXQYk/Ma-Tee-1-Pn-1.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
+                    }
+                ]
+            }
+        ],
+        "product_detail": [
+            "Rib-knit crew neck.",
+            "Drop-shoulder short sleeves.",
+            "Vented sides at hem.",
+            "Soft-washed, thick slub-knit jersey for the ultimate soft t-shirt. We put it through the wringer so you don't have to.",
+            "Textured jacquard stripes."
+        ]
+    },
+    {
+        "typeOf": "Men",
+        "category": "Tees",
+        "id": "MT02",
+        "name": "Soft-Washed V-Neck Tee for Men",
+        "mainImg": "https://i.ibb.co/Zz88pyc/MT-2-1.png",
+        "detailImg": "https://i.ibb.co/Zz88pyc/MT-2-1.png",
+        "rating": 4,
+        "price": 10.99,
+        "colours": [
+            {
+                "name": "Luminous Blue",
+                "id": "MT02-LB",
+                "mainImg": "https://i.ibb.co/Zz88pyc/MT-2-1.png",
+                "thumbnail": "https://i.ibb.co/02fKWW3/MT-2-Thumb.png",
+                "imgSrc": [
+                    "https://i.ibb.co/Zz88pyc/MT-2-1.png",
+                    "https://i.ibb.co/FYjZbNG/MT-2-2.png",
+                    "https://i.ibb.co/Y8G4B5H/MT-2-3.png",
+                    "https://i.ibb.co/rFNxsWr/MT-2-4.png"
+                ],
+                "sizes": [
+                    {
+                        "size": "XS", 
+                        "qty": 100
+                    },
+                    {
+                        "size": "S", 
+                        "qty": 0
+                    },
+                    {
+                        "size": "M", 
+                        "qty": 15
+                    },
+                    {
+                        "size": "L", 
+                        "qty": 5
+                    },
+                    {
+                        "size": "XL", 
+                        "qty": 50
                     }
                 ]
             }

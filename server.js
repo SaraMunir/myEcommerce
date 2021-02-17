@@ -4,7 +4,7 @@ const express = require( 'express' );
 const fs = require('fs');
 const path = require("path");
 const orm = require( './db/orm.mongoose' );
-
+  
 // const { kMaxLength } = require('buffer');
 const PORT = process.env.PORT || 8080;
 const app = express();
@@ -22,7 +22,7 @@ app.use( express.json() );
 //     const womens = JSON.parse( fs.readFileSync( "./productData.json" ) );
 //     let womensArr=[]
 //     womens.map(women=>{
-//       if(women.type==="Women" && women.category==="Tees"){
+//       if(women.typeOf==="Women" && women.category==="Tees"){
 //         womensArr.push(women)
 //       }
       
@@ -35,12 +35,35 @@ app.get('/api/Women/:category', async( req,res) => {
     const womens = JSON.parse( fs.readFileSync( "./productData.json" ) );
     let womensArr=[]
     womens.map(women=>{
-      if(women.type==="Women" && women.category===category){
+      if(women.typeOf==="Women" && women.category===category){
         womensArr.push(women)
       }
     })
     res.send( womensArr );
   });
+app.get('/api/Men/:category', async( req,res) => {
+  const category = req.params.category;
+    const mens = JSON.parse( fs.readFileSync( "./productData.json" ) );
+    let mensArr=[]
+    mens.map(men=>{
+      if(men.typeOf==="Men" && men.category===category){
+        mensArr.push(men)
+      }
+    })
+    res.send( mensArr );
+  });
+app.post('/api/postOrder', async function( req,res ){
+  const orderObj = req.body;
+  const postOrder = await orm.postOrder( orderObj );
+  res.send(postOrder);
+})
+
+//fetching order Number:
+app.get('/api/orderNumber/:ordernumber', async(req, res) => {
+  const ordernumber = req.params.ordernumber;
+  const getOrderNumber = await orm.getOrderNumber( ordernumber );
+  res.json( getOrderNumber );
+})
 
 app.get('/*', function( req,res ){
     console.log("redirect to index page!");

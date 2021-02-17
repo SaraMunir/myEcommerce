@@ -5,7 +5,7 @@ function TeesPage() {
     const [ tees, setTees ]= useState([]);
     async function loadTees(){
         console.log('where is it?')
-        const apiTees = await fetch(`/api/Women/Tees`).then( result=>result.json() );
+        const apiTees = await fetch(`/api/Men/Tees`).then( result=>result.json() );
         console.log('apiTees:', apiTees)
         setTees( apiTees );
     }
@@ -20,7 +20,7 @@ function TeesPage() {
             <div className="row mx-auto col-lg-10">
                 {
                     tees.map(image=>
-                        <Link className="myCard mx-auto"  to={`/Womens/Tees/${image.id}`}>
+                        <Link className="myCard mx-auto"  to={`/Mens/Tees/${image.id}`}>
                             <div className="">
                                 <img className="cardtImg" src={image.mainImg} alt={image.name}/>
                                 <p className="cardTitle">{image.name}</p>

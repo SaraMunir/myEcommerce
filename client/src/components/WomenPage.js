@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function WomenPage() {
     return (
-        <div>
+        <div> 
             <div className="container-fluid m-0 p-4" style={{minHeight:'100vh', backgroundColor:'#ebecec'}}>
                 <div className="row mx-auto">
                     <div className="col-lg-4">

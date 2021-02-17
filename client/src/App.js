@@ -13,6 +13,8 @@ import BagsPage from './components/BagsPage'
 import AccessoriesPage from './components/AccessoriesPage'
 import ShoesPage from './components/ShoesPage'
 import WomensWear from './components/WomensWear/WomensWear';
+import ConfirmationPage from './components/ConfirmationPage';
+import MensWear from './components/MensWear/MensWear';
 function App() {
   
   return (
@@ -23,7 +25,9 @@ function App() {
         <Route exact path="/Women" component={WomenPage}/>
         <Route exact path="/ShoppingCart" component={ShoppingCartPage}/>
         <Route exact path="/Checkout" component={CheckoutPage}/>
+        <Route exact path="/Confirmation/:ordernumber" component={ConfirmationPage}/>
         <Route path="/Womens" component={WomensWear}/>
+        <Route path="/Mens" component={MensWear}/>
         <Route exact path="/Men" component={ManPage}/>
         <Route exact path="/Kids" component={KidsPage}/>
         <Route exact path="/Bags" component={BagsPage}/>

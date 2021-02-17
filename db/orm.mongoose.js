@@ -6,3 +6,23 @@ mongoose.connect(`mongodb://localhost:27017/myEcommerceWeb`, {useNewUrlParser: t
 
 const db = require( './models' );
 const e = require('express');
+
+
+async function postOrder( orderData ){
+    const dbOrder = new db.orderNo( orderData );
+    const postOrder = await dbOrder.save();
+    return { 
+        postOrder 
+    };
+}
+async function getOrderNumber( orderNumber ){
+    const getOrderNumber = await db.orderNo.findOne({
+        "_id" : orderNumber
+    })
+    return getOrderNumber
+}
+
+module.exports = {
+    postOrder,
+    getOrderNumber
+}
