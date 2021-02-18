@@ -9,13 +9,37 @@ function TeesPage() {
         console.log('apiTees:', apiTees)
         setTees( apiTees );
     }
+    function sortBy(type){
+        if (type == "High"){
+            const sortedList = [...tees].sort(function(a, b){
+                let price1 = a.price;
+                let price2 = b.price;
+                return (price1 > price2 ? 1 : -1 )});
+                setTees( sortedList );
+        }
+        if (type == "Low"){
+            const sortedList = [...tees].sort(function(a, b){
+                let price1 = a.price;
+                let price2 = b.price;
+                return (price2 > price1 ? 1 : -1 )});
+                setTees( sortedList );
+        }
+    }
     useEffect( function(){
         loadTees();
     }, [] );
     return (
         <div className="container-fluid">
             <div className="text-right mx-auto col-lg-10">
-                <h4>Sort By <i class="fas fa-chevron-down"></i></h4>
+                <div class="dropdown">
+                    <button class="mySqrBtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sort
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item" onClick={()=>sortBy("High")}>sort by Price(Low to high)</div>
+                        <div class="dropdown-item" onClick={()=>sortBy("Low")}>sort by Price(high to low)</div>
+                    </div>
+                </div>
             </div>
             <div className="row mx-auto col-lg-10">
                 {

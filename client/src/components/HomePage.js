@@ -40,7 +40,7 @@ function HomePage() {
                                         <h2 className="bannerHtxt">Lorem ipsum, <br/> dolor sit.</h2>
                                         <div style={{height: '160px'}}></div>
                                         <div className="text-center mt-5">
-                                            <Link to="/Kids">
+                                            <Link to="/Kid">
                                                 <div className="mySqrBtn mt-3 col-md-6 mx-auto spBtn">
                                                     explore Kids
                                                 </div>

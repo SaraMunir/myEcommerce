@@ -182,6 +182,22 @@ font-family: 'Nunito Sans', sans-serif;
   /* background-color: #ebecec; */
   color: rgb(59, 59, 59);
 }
+button {
+  border: none;
+}
+button:hover, button:active{
+  border: none;
+  border-style: none;
+}
+button:focus{
+  outline-offset: 0px;
+  outline: none;
+}
+.dropdown-item{
+  padding: 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
 .spBtn{
   position: relative;
   z-index: 200;
@@ -232,7 +248,7 @@ font-family: 'Nunito Sans', sans-serif;
   background-color: #ffd3b6d2;
 }
 .greenBcgnd{
-  background-color: #dcedc18f;
+  background-color: #d1eba8b7;
 }
 .green2Bcgnd{
   background-color: #a8e6cfa4;

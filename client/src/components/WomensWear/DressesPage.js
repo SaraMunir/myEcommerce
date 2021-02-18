@@ -7,7 +7,22 @@ function DressesPage() {
     async function loadDress(){
         const apiDress = await fetch('/api/Women/Dress').then( result=>result.json() );
         setDress( apiDress );
-        console.log('apiDress: ', apiDress)
+    }
+    function sortBy(type){
+        if (type == "High"){
+            const sortedList = [...dress].sort(function(a, b){
+                let price1 = a.price;
+                let price2 = b.price;
+                return (price1 > price2 ? 1 : -1 )});
+                setDress( sortedList );
+        }
+        if (type == "Low"){
+            const sortedList = [...dress].sort(function(a, b){
+                let price1 = a.price;
+                let price2 = b.price;
+                return (price2 > price1 ? 1 : -1 )});
+                setDress( sortedList );
+        }
     }
     useEffect( function(){
         loadDress();
@@ -15,7 +30,15 @@ function DressesPage() {
     return (
         <div className="container-fluid">
             <div className="text-right mx-auto col-lg-10">
-                <h5>Sort By <i class="fas fa-chevron-down"></i></h5>
+                <div class="dropdown">
+                    <button class="mySqrBtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Sort
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="dropdown-item" onClick={()=>sortBy("High")}>sort by Price(Low to high)</div>
+                        <div class="dropdown-item" onClick={()=>sortBy("Low")}>sort by Price(high to low)</div>
+                    </div>
+                </div>
             </div>
             <div className="row mx-auto col-lg-10">
                 {

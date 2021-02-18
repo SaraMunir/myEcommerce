@@ -40,14 +40,9 @@
                         "size": "XL", 
                         "qty": 50
                     }
-                ]
-            }],
-        "product_detail": [
-            "Rib-knit crew neck.",
-            "Drop-shoulder short sleeves.",
-            "Vented sides at hem.",
-            "Soft-washed, thick slub-knit jersey for the ultimate soft t-shirt. We put it through the wringer so you don't have to.",
-            "Textured jacquard stripes."
+                ], 
+                "searchTags": ["stripes", "black", "white","women", "Tees", "tshirt"]
+            }
         ]
     },
     {
@@ -91,7 +86,8 @@
                         "size": "XL", 
                         "qty": 5
                     }
-                ]
+                ],
+                "searchTags": ["yellow", "women", "Tees", "tshirt"]
             },
             {
                 "name": "Red",
@@ -122,7 +118,8 @@
                         "size": "XL", 
                         "qty": 100
                     }
-                ]
+                ],
+                "searchTags": ["red", "women", "Tees", "tshirt"]
             }
         ]
     },
@@ -163,7 +160,8 @@
                         "size": "XL", 
                         "qty": 5
                     }
-                ]
+                ],
+                "searchTags": ["pink","floral","women", "Tees", "tshirt"]
             },
             {
                 "name": "White Floral",
@@ -192,7 +190,8 @@
                         "size": "XL", 
                         "qty": 100
                     }
-                ]
+                ],
+                "searchTags": ["white","floral","women", "Tees", "tshirt"]
             }
         ]
     },
@@ -236,7 +235,8 @@
                         "size": "XL", 
                         "qty": 5
                     }
-                ]
+                ],
+                "searchTags": ["pink","green","tiedye","women", "Tees", "tshirt"]
             }
         ]
     },
