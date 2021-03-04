@@ -17,19 +17,17 @@ app.use(express.static(path.join(__dirname, "client/src/components/assets/produc
 app.use( express.urlencoded({ extended: false }) );
 app.use( express.json() );
 
-// //Tees list
-// app.get('/api/Tees/Women', async( req,res) => {
-//     const womens = JSON.parse( fs.readFileSync( "./productData.json" ) );
-//     let womensArr=[]
-//     womens.map(women=>{
-//       if(women.typeOf==="Women" && women.category==="Tees"){
-//         womensArr.push(women)
-//       }
-      
-//     })
-//     res.send( womensArr );
-//   });
-//Tees list
+app.get('/api/loadAll', async( req,res) => {
+  const category = req.params.category;
+    const all = JSON.parse( fs.readFileSync( "./productData.json" ) );
+    // let womensArr=[]
+    // womens.map(women=>{
+    //   if(women.typeOf==="Women" && women.category===category){
+    //     womensArr.push(women)
+    //   }
+    // })
+    res.send( all );
+  });
 app.get('/api/Women/:category', async( req,res) => {
   const category = req.params.category;
     const womens = JSON.parse( fs.readFileSync( "./productData.json" ) );

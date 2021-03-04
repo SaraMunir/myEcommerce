@@ -16,6 +16,7 @@ import WomensWear from './components/WomensWear/WomensWear';
 import ConfirmationPage from './components/ConfirmationPage';
 import MensWear from './components/MensWear/MensWear';
 import KidsWear from './components/KidsWear/KidsWear';
+import SearchPage from './components/SearchPage';
 function App() {
   
   return (
@@ -24,6 +25,7 @@ function App() {
         <Navbar />
         <Route exact path={["/","/HomePage"]} component={HomePage}/>
         <Route exact path="/Women" component={WomenPage}/>
+        <Route exact path="/Search/:searchInput" component={SearchPage}/>
         <Route exact path="/ShoppingCart" component={ShoppingCartPage}/>
         <Route exact path="/Checkout" component={CheckoutPage}/>
         <Route exact path="/Confirmation/:ordernumber" component={ConfirmationPage}/>
