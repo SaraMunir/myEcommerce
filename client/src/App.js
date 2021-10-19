@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
@@ -17,6 +17,10 @@ import ConfirmationPage from './components/ConfirmationPage';
 import MensWear from './components/MensWear/MensWear';
 import KidsWear from './components/KidsWear/KidsWear';
 import SearchPage from './components/SearchPage';
+import AdminLogin from './components/Admin/AdminLogIn';
+import AdminSetup from './components/Admin/AdminSetup'
+import DeveloperSetup from './components/Admin/DeveloperSetup';
+import AddProduct from './components/Admin/AddProduct';
 function App() {
   
   return (
@@ -37,6 +41,10 @@ function App() {
         <Route path="/Womens" component={WomensWear}/>
         <Route path="/Mens" component={MensWear}/>
         <Route path="/Kids" component={KidsWear}/>
+        <Route path="/AdminSetup" component={AdminSetup}/>
+        <Route path="/AdminLogin" component={AdminLogin}/>
+        <Route path="/AddProduct" component={AddProduct}/>
+        <Route path="/DeveloperSetup" component={DeveloperSetup}/>
       </Router>
     </div>
   );

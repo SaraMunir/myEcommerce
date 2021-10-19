@@ -152,6 +152,27 @@ font-family: 'Nunito Sans', sans-serif;
   cursor: pointer;
   font-weight: bolder;
 }
+.smallBtn{
+  background-color: #383838;
+  color: white;
+  /* font-family: 'Montserrat', sans-serif;  */
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.editBtn{
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid rgb(165, 160, 160);
+  border-radius: 4px;
+}
+.editBtn:hover{
+  cursor: pointer;
+  background: #f0eded;
+  padding: 5px 10px;
+  border: 1px solid #a5a0a0;
+  border-radius: 4px;
+}
 .mySqrBtnSpecial{
   background-color: #a8e6cf;
   color: #383838;
@@ -302,6 +323,60 @@ button:focus{
   width: 300px;
   position: relative;
 }
+.myCard2{
+  background-color: #d8ffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 300px;
+  position: relative;
+  border: 1px solid aquamarine;
+  min-height: 30vh;
+}
+.myTab{
+  background-color: #d8ffff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  width: 250px;
+  position: relative;
+  border: 1px solid aquamarine;
+  min-height: 5vh;
+  cursor: pointer;
+}
+.sideMenu{
+  background: #3e413f;
+  min-height: 100vh;
+  width: 15%;
+}
+li {
+  list-style: none;
+}
+.sideMenuItem{
+  padding: 10px;
+  color: #c4c0c0;
+}
+.sideMenuItemActive{
+  padding: 10px;
+  color: #90ddaf;
+  background: #313332;
+}
+.sideMenuItem:hover{
+  padding: 10px;
+  background: #313332;
+}
+.borderBottom{
+  border-bottom: 1px solid #595c5b;
+}
+.borderTop{
+  border-top: 1px solid #595c5b;
+}
+.topMenu{
+  border: 1px solid greenyellow;
+}
+/* a {
+  color: red;
+} */
 
 .myCardHvr{
   background-color: #88e0b060;
@@ -383,7 +458,13 @@ button:focus{
 .deleteBtn:hover{
   color: #303030;
 }
-
+.deleteBtn2{
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  top: -7px;
+  right: 7px;
+}
 .priceTag{
   font-size: 1.8rem;
   font-weight: bolder;
@@ -554,6 +635,21 @@ button:focus{
   top: 10px;
   right: 30px;
   cursor: pointer;
+}
+.myModal{
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #19012ba4
+}
+.settingBckg{
+  background-color: #eef4f5a4
+}
+.productThmbImg{
+  width: 60px;
 }
 @media only screen and (max-width: 992px) {
   .hambuger{

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation, useHistory } from "react-router-dom";
 import Logo from "./assets/needle.png"
 function Navbar() {
+    const admin = localStorage.category;
     let history = useHistory();
     const location = useLocation();
     const [showSearchInput, setShowSearchInput] = useState(false)
@@ -35,7 +36,7 @@ function Navbar() {
         <div className="position-relative"> 
             <div style={{height:'10vh'}}></div>
             <nav className="navbar navbar-expand-lg navbar-light p-0 pt-2">
-                <div className="col-4 d-flex justify-content-between">
+                <div className="col-2 d-flex justify-content-between">
                     <i class="fas fa-bars hambuger" onClick={()=>setShowMenu(true)}></i>
                     <Link to="/HomePage" className={location.pathname === "/HomePage" ? "nav-link active" : "nav-link"}>
                         <div className="d-flex">
@@ -49,20 +50,25 @@ function Navbar() {
                     <div className="navLink menuClosBtn" onClick={()=>setShowMenu(false)}>
                         <i class="fas fa-times"></i>
                     </div>
-                    <Link to="/HomePage" className={location.pathname === "/HomePage" ? "navLinkActive col-lg-3 mx-auto" : "navLink col-lg-3 mx-auto"}>
+                    <Link to="/HomePage" className={location.pathname === "/HomePage" ? "navLinkActive mx-auto" : "navLink mx-auto"}>
                         Home
                     </Link>
-                    <Link to="/Women" className={location.pathname === "/Women" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
+                    <Link to="/Women" className={location.pathname === "/Women" ? "navLinkActive mx-auto" : "navLink mx-auto"}>
                         Women
                     </Link>
-                    <Link to="/Men" className={location.pathname === "/Men" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
+                    <Link to="/Men" className={location.pathname === "/Men" ? "navLinkActive mx-auto" : "navLink mx-auto"}>
                         Men
                     </Link>
-                    <Link to="/Kid" className={location.pathname === "/Kid" ? "navLinkActive col-lg-3" : "navLink col-lg-3"}>
+                    <Link to="/Kid" className={location.pathname === "/Kid" ? "navLinkActive mx-auto" : "navLink mx-auto"}>
                         Kids
                     </Link>
+                    {
+                        admin === 'Admin' ? <Link to="/AdminSetup" className={location.pathname === "/AdminSetup" ? "navLinkActive mx-auto" : "navLink mx-auto"}>
+                        Settings
+                    </Link> :''
+                    }
                 </div>
-                <div className="col-4 d-flex  justify-content-end">
+                <div className="col-2 d-flex  justify-content-end">
                     {/* <div className="col-9 searchParent">
                         <i class="searchIcon fas fa-search" onClick={()=>setShowSearchInput(true)}></i>
                         {
